@@ -19,6 +19,7 @@ html {
 }
 
 .wrapper {
+  /* position: relative; */
   margin-top: 20px;
 }
 
@@ -83,6 +84,7 @@ html {
 
 .first-screen {
   display: flex;
+  margin-bottom: 100px;
 }
 
 .about {
@@ -119,3 +121,201 @@ html {
   width: 180px;
   height: 50px;
 }
+
+/* -----end main section 1/5----- */
+
+/* -----main section 2/5----- */
+
+.features {
+  margin-bottom: 100px;
+}
+
+.features-title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #2f281e;
+}
+
+.feature-text-cont {
+  margin: 0 330px 50px 330px;
+}
+
+.features-list {
+  display: flex;
+}
+
+.features-bgc {
+  /* background: linear-gradient(
+    359.61deg,
+    rgba(255, 229, 210, 0.629261) 0.33%,
+    rgba(255, 244, 229, 0.0001) 99.67%
+  ); */
+}
+
+.features-list {
+  margin-bottom: 70px;
+}
+
+.features-list li {
+  width: 25%;
+  margin-right: 40px;
+}
+
+.features-list li:last-child {
+  margin-right: 0;
+}
+
+.features-icon {
+  display: flex;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.fa-arrow-pointer,
+.fa-stumbleupon,
+.fa-heart,
+.fa-hourglass {
+  padding-top: 16px;
+  width: 50px;
+  height: 34px;
+  border-radius: 15px;
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.fa-arrow-pointer {
+  background: #7752be;
+}
+.fa-stumbleupon {
+  background: #fab005;
+}
+
+.fa-heart {
+  background: #f03e3d;
+}
+
+.fa-hourglass {
+  background: #4dadf7;
+}
+
+.features-list-title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #2f281e;
+  margin-bottom: 16px;
+}
+
+.features-list-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #544837;
+}
+
+.signupnow {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  background: #ff9900;
+  border-radius: 4px;
+  width: 180px;
+  height: 50px;
+  margin: 0 510px 75px 510px;
+}
+
+div[class='container'] {
+  position: relative;
+}
+
+.bg {
+  position: absolute;
+  left: -120px;
+  z-index: -1;
+  top: 750px;
+}
+
+/* -----end main section 2/5----- */
+
+/* -----main section 3/5 -----*/
+
+.benefits {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.benefits-content {
+  width: 50%;
+  margin: 21px 113px 21px 0;
+}
+
+.benefits-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #544837;
+}
+
+.benefits-title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #2f281e;
+  margin-bottom: 20px;
+}
+
+.benefits-about {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #544837;
+  margin-bottom: 40px;
+}
+
+.benefits-list-title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #2f281e;
+  margin-bottom: 10px;
+}
+
+.benefits-list-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #544837;
+  margin-bottom: 30px;
+}
+.benefits-list-text:last-child {
+  margin-bottom: 0;
+}
+
+/* -----end main section 3/5 -----*/
+
+/* -----main section 4/5 -----*/
