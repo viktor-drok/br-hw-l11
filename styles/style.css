@@ -473,6 +473,13 @@ input {
   width: 25%;
 }
 
+@font-face {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Gotham'), url('https://fonts.cdnfonts.com/s/14898/GothamMedium_1.woff') format('woff');
+}
+
 .footer-nav-title {
   font-family: 'Gotham';
   font-style: normal;
