@@ -20,7 +20,8 @@ html {
 
 .wrapper {
   /* position: relative; */
-  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 /* -----header----- */
@@ -81,6 +82,13 @@ html {
 /* -----header end----- */
 
 /* -----main section 1/5----- */
+
+.bg {
+  position: absolute;
+  left: -120px;
+  z-index: -1;
+  top: 750px;
+}
 
 .first-screen {
   display: flex;
@@ -243,13 +251,6 @@ div[class='container'] {
   position: relative;
 }
 
-.bg {
-  position: absolute;
-  left: -120px;
-  z-index: -1;
-  top: 750px;
-}
-
 /* -----end main section 2/5----- */
 
 /* -----main section 3/5 -----*/
@@ -312,9 +313,6 @@ div[class='container'] {
   color: #544837;
   margin-bottom: 30px;
 }
-.benefits-list-text:last-child {
-  margin-bottom: 0;
-}
 
 /* -----end main section 3/5 -----*/
 
@@ -322,6 +320,7 @@ div[class='container'] {
 
 .product {
   display: flex;
+  margin-bottom: 100px;
 }
 
 .product-content {
@@ -364,6 +363,18 @@ div[class='container'] {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
+  align-items: baseline;
+}
+
+.product-item::before {
+  content: url(../img/check.svg);
+  display: block;
+  float: left;
+  width: 35px;
+  height: 35px;
+  margin-right: 30px;
+  padding-top: 8px;
+  padding-bottom: 9px;
 }
 
 .product-list {
@@ -371,17 +382,20 @@ div[class='container'] {
 }
 
 .product-list > li {
-  padding-left: 30px;
+  /* padding-left: 30px; */
 }
 
-.product-list ::marker {
+.fa-square-check {
+  color: #ff9900;
+}
+/* .product-list ::marker {
   content: '\f14a';
   font-family: 'FontAwesome';
   font-style: normal;
   font-weight: 700;
   font-size: 52px;
   color: #ff9900;
-}
+} */
 
 /* .product-item::first-letter {
   font-family: 'FontAwesome';
@@ -397,4 +411,178 @@ div[class='container'] {
 
 ul li.product-item {
   margin-bottom: 30px;
+}
+
+/* -----end main section 4/5 -----*/
+
+/* -----main section 5/5 -----*/
+
+.marketers {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.marketers-content {
+  width: 50%;
+  margin: 40px 175px 40px 0;
+}
+
+.marketers-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #544837;
+}
+
+.marketers-title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #2f281e;
+  margin-bottom: 20px;
+}
+
+.marketers-about {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #544837;
+  margin-bottom: 40px;
+}
+
+.marketers-list-title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #2f281e;
+  margin-bottom: 12px;
+}
+
+.marketers-list-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #544837;
+  margin-bottom: 30px;
+}
+
+/* -----end main section 5/5 -----*/
+
+hr {
+  height: 1px;
+  background: rgb(188, 208, 229);
+  opacity: 0.5;
+}
+
+/* -----footer----- */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.footer-nav-title {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2f281e;
+  margin-bottom: 30px;
+}
+
+.footer-nav-link {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #544837;
+  margin-bottom: 15px;
+}
+
+.footer-nav-link:last-child {
+  margin-bottom: 0;
+}
+
+.legal-title {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2f281e;
+  margin-bottom: 30px;
+}
+
+.legal-link {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #544837;
+  margin-bottom: 15px;
+}
+
+.legal-link:last-child {
+  margin-bottom: 0;
+}
+
+.footer-form-title {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2f281e;
+  margin-bottom: 25px;
+}
+
+#phone-number {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #544837;
+}
+
+.footer-btn {
+  width: 50%;
+  height: 50px;
+  margin-top: 25px;
+  background: #ff9900;
+  border-radius: 4px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
 }
