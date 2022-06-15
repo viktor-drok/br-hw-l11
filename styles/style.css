@@ -570,3 +570,12 @@ input {
   line-height: 26px;
   color: #544837;
 }
+
+::placeholder {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #bcd0e5;
+}
